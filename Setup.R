@@ -266,5 +266,6 @@ major_occupations <- crosswalk |>
 # round the standardized scores in the main table for readability
 ai_salary_majors <- ai_salary_majors |>
   mutate(across(c(ai_exposure, ai_exposure_language, ai_exposure_image),
-                \(x) round(x, 3)))
+                \(x) round(x, 3))) 
+
 
