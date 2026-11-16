@@ -2,7 +2,7 @@
 # Using R
 # Option 1: tidytuesdayR R package 
 ## install.packages("tidytuesdayR")
- 
+
 # unsure yet if we need this piece. We might delete this and only use everything from line 15 and down
 library(tidyverse)
 library(tidytuesdayR)
@@ -10,7 +10,8 @@ library(tidytuesdayR)
 tuesdata <- tidytuesdayR::tt_load('2026-10-20')
 
 ai_salary_majors <- tuesdata$ai_salary_majors
-major_occupations <- tuesdata$major_occupations
+
+major_occupations <- tuesdata$major_occupations 
 
 # =============================================================================
 # TidyTuesday dataset: College majors, AI disruption risk, and starting salaries
@@ -265,4 +266,6 @@ major_occupations <- crosswalk |>
 # round the standardized scores in the main table for readability
 ai_salary_majors <- ai_salary_majors |>
   mutate(across(c(ai_exposure, ai_exposure_language, ai_exposure_image),
-                \(x) round(x, 3)))
+                \(x) round(x, 3))) 
+
+
