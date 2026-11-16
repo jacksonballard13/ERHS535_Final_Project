@@ -1,0 +1,23 @@
+0.5.0.1 Final presentation
+
+In total, the group’s presentation should last 15 minutes. There will then be 5 minutes for questions.
+
+Split the presentation up into two parts: (1) an overview of your flexdashboard (about 7 minutes) and (2) a tutorial-style discussion of how you used R to do the project (about 8 minutes).
+
+The overview of your flexdashboard should:
+Explain the data sources for your dashboard
+Explain what a user should be able to explore or understand by using your dashboard
+Walk viewers through each pane in the flexdashboard and how any interactive elements can be used
+
+The tutorial part should include the following sections:
+Interesting packages / techniques: Spend a bit more time on any parts that you found particularly interesting or exciting. Were there packages you used that were helpful that we haven’t talked about in class? Did you find out how to do anything that you think other students could use in the future? Did you end up writing a lot of functions to use? Did you have an interesting way of sharing code and data among your group members?
+Lessons learned: If you were to do this project again from scratch, what would you do differently? Were there any big wrong turns along the way? Did you find out how to do something late in the project that would have saved you time if you’d started using it earlier?
+
+
+0.5.0.2 Flexdashboard
+The grade for the flexdashboard will be based on the following criteria:
+
+It should work.
+It should include text that is clearly written, without grammatical errors or typos. Any graphics are easily to interpret and follow some of the principles of good graphics covered in class.
+It includes at least three rendered outputs (e.g., plots, tables). At least one should be interactive.
+It is self-contained—in other words, a user shouldn’t need to hear you explain the dashboard to understand it. It should include enough information on the app for a user to figure out how to use the app and interpret the output.
