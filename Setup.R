@@ -3,8 +3,6 @@
 # Option 1: tidytuesdayR R package 
 ## install.packages("tidytuesdayR")
 
-
-
 # unsure yet if we need this piece. We might delete this and only use everything from line 15 and down
 library(tidyverse)
 library(tidytuesdayR)
