@@ -21,3 +21,13 @@ It should work.
 It should include text that is clearly written, without grammatical errors or typos. Any graphics are easily to interpret and follow some of the principles of good graphics covered in class.
 It includes at least three rendered outputs (e.g., plots, tables). At least one should be interactive.
 It is self-contained—in other words, a user shouldn’t need to hear you explain the dashboard to understand it. It should include enough information on the app for a user to figure out how to use the app and interpret the output.
+
+
+
+Ideas: 
+
+Dumbell chart - 1y vs 4 yr with AI exposure as connecting line 
+Majors vs Variables (as tabs)
+  Majors vs Median Salary 
+  Majors vs AI Exposure 
+AI exposure varying across language/ image - maybe top 5 from each quad (most/least + AI/Salary) 

@@ -1,17 +1,4 @@
 
-# Using R
-# Option 1: tidytuesdayR R package 
-## install.packages("tidytuesdayR")
-
-# unsure yet if we need this piece. We might delete this and only use everything from line 15 and down
-library(tidyverse)
-library(tidytuesdayR)
-
-tuesdata <- tidytuesdayR::tt_load('2026-10-20')
-
-ai_salary_majors <- tuesdata$ai_salary_majors
-
-major_occupations <- tuesdata$major_occupations 
 
 # =============================================================================
 # TidyTuesday dataset: College majors, AI disruption risk, and starting salaries
