@@ -248,3 +248,4 @@ ai_salary_majors_clean <- ai_salary_majors %>%
                                           broad_field_short %in% c("English", "Theology & Religion", "Area & Ethnic Studies", "Philosphy & Religion", "Education", "Visual & Performing Arts", "History", "Culinary & Personal Svc") ~ "Arts and Humanities",
                                           broad_field_short %in% c("Homeland Security", "Foreign Languages", "Military Tech", "Legal") ~"Government and Legal")) 
 
+# Cleaner graph -------------------------------------------
