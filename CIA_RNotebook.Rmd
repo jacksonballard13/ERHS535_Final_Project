@@ -1,0 +1,31 @@
+---
+title: "Claire - R Notebook"
+output: html_notebook
+---
+
+Data from `https://github.com/rfordatascience/tidytuesday/blob/main/data/2026/2026-10-20/readme.md`
+
+```{r, message=FALSE}
+source("Setup.R")
+```
+
+```{r}
+ai_salary_majors %>% summarize(median = median(median_salary_4yr, na.rm = TRUE))
+
+ai_salary_majors %>% 
+  arrange 
+
+library(ggplot2)
+library(plotly)
+p <- ggplot(
+  data = ai_salary_majors, aes(x = ai_exposure, y = median_salary_4yr, 
+                               label = paste0(
+      "Major: ", field_of_study,
+      "<br>Salary: $", scales::comma(median_salary_4yr),
+      "<br>Graduates: ", scales::comma(n_graduates)))) +
+  geom_hline(yintercept = 64445, linewidth = 0.5, linetype = "dashed") +
+  geom_vline(xintercept = 0.0, linewidth = 0.5, linetype = "dashed") +
+  geom_point(aes(size = n_graduates), alpha = 0.5)
+ggplotly(p, tooltip = "label")
+```
+
